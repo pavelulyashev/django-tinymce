@@ -92,7 +92,6 @@ class TinyMCE(forms.Textarea):
         if tinymce.settings.USE_COMPRESSOR:
             compressor_config = {
                 'plugins': mce_config.get('plugins', ''),
-                'themes': mce_config.get('theme', 'advanced'),
                 'languages': mce_config.get('language', ''),
                 'diskcache': True,
                 'debug': False,
