@@ -1,3 +1,6 @@
 *.egg-info
-*.pyc
+*.py[cod]
 .DS_Store
+.idea
+build/
+dist/
